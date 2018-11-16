@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <!--- git edit test line1 --->
 <!--- git edit test line2 --->
 <!--- git edit test line3 --->
 <!--- git edit test line4 --->
 <!--- git edit test line5 --->
+=======
+>>>>>>> 34b19ec197b8a95f79ba39d9179495e286b4b6f5
 <html lang="ja">
 <head>
 <meta charset="euc-jp">
@@ -81,11 +84,14 @@
 <div class="list-tab-daily">
 <div class="list-tab-daily-inner">
 <ul>
+<<<<<<< HEAD
 <!--- git edit test line6 --->
 <!--- git edit test line7 --->
 <!--- git edit test line8 --->
 <!--- git edit test line9 --->
 <!--- git edit test line10--->
+=======
+>>>>>>> 34b19ec197b8a95f79ba39d9179495e286b4b6f5
 <?php
 	$now_month = get_month();
 	$now_date = get_date();
