@@ -81,11 +81,6 @@
 <div class="list-tab-daily">
 <div class="list-tab-daily-inner">
 <ul>
-<!--- git edit test line6 --->
-<!--- git edit test line7 --->
-<!--- git edit test line8 --->
-<!--- git edit test line9 --->
-<!--- git edit test line10 --->
 <?php
 	$now_month = get_month();
 	$now_date = get_date();
