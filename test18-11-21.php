@@ -30,7 +30,22 @@
 			return(0);	//3チャンネル放送
 		}
 
-		//２回目のコミット確認用更新（追加）
+/***２回目のコミット確認用更新（追加）***/
+		//月
+		$disp_month = get_2Byte($now_month);
+		//日
+		$disp_date = get_2Byte($now_date);
+
+		$disp_YMD = $disp_year . $disp_month . $disp_date;
+
+		if ( $disp_YMD > 20180930 ) {	//2018年10月01日よりBS2チャンネル放送開始
+		//if ( $disp_YMD > 20180915 ) {	//2018年09月16日テスト用
+			return(1);	//BS2チャンネル放送
+		} else {
+			return(0);	//3チャンネル放送
+		}
+
+/***３回目のコミット確認用更新（追加）***/
 		//月
 		$disp_month = get_2Byte($now_month);
 		//日
