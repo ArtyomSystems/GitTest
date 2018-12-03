@@ -64,6 +64,10 @@ function set_Database_Connect() {
 	$sql = "INSERT INTO bangumidata VALUES ($int_ID, 'BS¥­¥ã¥ó¥Ñ¥¹exÆÃ½¸', 'https://bangumi.ouj.ac.jp/bslife/category01.php')";
 	mysql_query( $sql, $conn);
 	$int_ID ++;
+	//*** 2018-11-26 £Ä£Â¤Ø¤ÏÁ´³Ñ¤ÇÅÐÏ¿¤Î¤³¤È
+	$sql = "INSERT INTO bangumidata VALUES ($int_ID, '£Â£Ó¥­¥ã¥ó¥Ñ¥¹£å£øÆÃ½¸', 'https://bangumi.ouj.ac.jp/bslife/category01.php')";
+	mysql_query( $sql, $conn);
+	$int_ID ++;
 //­¢¡È²Ê³Ø¡É¤«¤é¤Î¾·ÂÔ¾õ
 	$sql = "INSERT INTO bangumidata VALUES ($int_ID, '¡È²Ê³Ø¡É¤«¤é¤Î¾·ÂÔ¾õ', 'https://bangumi.ouj.ac.jp/bslife/category02.php')";
 	mysql_query( $sql, $conn);
@@ -100,8 +104,8 @@ function set_Database_Connect() {
 	$sql = "INSERT INTO bangumidata VALUES ($int_ID, '³Ø½¬¥»¥ó¥¿¡¼¤á¤°¤ê', 'https://bangumi.ouj.ac.jp/bslife/category10.php')";
 	mysql_query( $sql, $conn);
 	$int_ID ++;
-//­«¥Ç¡¼¥¿¥µ¥¤¥¨¥ó¥¹
-	$sql = "INSERT INTO bangumidata VALUES ($int_ID, '¥Ç¡¼¥¿¥µ¥¤¥¨¥ó¥¹', 'https://bangumi.ouj.ac.jp/bslife/category11.php')";
+//­«¥Ç¡¼¥¿¥µ¥¤¥¨¥ó¥¹³×Ì¿
+	$sql = "INSERT INTO bangumidata VALUES ($int_ID, '¥Ç¡¼¥¿¥µ¥¤¥¨¥ó¥¹³×Ì¿', 'https://bangumi.ouj.ac.jp/bslife/category11.php')";
 	mysql_query( $sql, $conn);
 	$int_ID ++;
 //­¬¥µ¥¤¥Ð¡¼¥»¥­¥å¥ê¥Æ¥£
